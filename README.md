@@ -14,7 +14,7 @@ PrettierLS is a colorful tree command that enhances the visualization of file st
 You can easily install PrettierLS using the following command:
 
 ```bash
-curl https://linuxfandudeguy.github.io/prettierls/install.sh | sh
+curl https://linuxfandudeguy.github.io/prettierls/install.sh | bash
 ```
 
 ### How It Works
