@@ -73,6 +73,10 @@ fn print_tree(path: PathBuf, prefix: &str) {
 
 fn main() {
     let current_dir = env::current_dir().expect("Failed to get current directory");
-    println!("Directory tree for: {}", current_dir.display());
+    
+    // Corrected println! macro
+    println!("{}", current_dir.display());
+
+    // Start printing the tree from the current directory
     print_tree(current_dir, "");
 }
