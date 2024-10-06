@@ -16,6 +16,11 @@ You can easily install PrettierLS using the following command:
 ```bash
 curl https://linuxfandudeguy.github.io/prettierls/install.sh | bash
 ```
+You can also uninstall PrettierLS with this command:
+
+```bash
+sudo rm /usr/local/bin/prettierls
+```
 
 ### How It Works
 
